@@ -3,30 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gilchrist Transport</title>
+    <title>Gilchrist Transport Ltd</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Gilchrist Transport</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Logo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
-      <script src="js/bootstrap.min.js"></script>
+      <header class="page-header header container-fluid">
+        <div class="overlay"></div>
+        <div class="description">
+            <h1>Gilchrist Transport Ltd</h1>
+            <p>Nationwide Haulage and Distribution</p>
+            <button class="btn btn-outline-secondary btn-lg"><a href="services.html">What we offer...</a></button>
+        </div>
+      </header>
+      <div class="container features">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <h3 class="feature-title">Transportation and Distribution</h3>
+            <img src="images/column-1.jpg" class="img-fluid">
+            <p>With our fleet of chilled lorries and vans we provide haulage and distribution across Scotland.</p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <h3 class="feature-title">Temperature Controlled Warehousing</h3>
+            <img src="images/column-2.jpg" class="img-fluid">
+            <p>Chilled warehousing is available at our headquarters in the North of Glasgow</p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12"> 
+            <h3 class="feature-title">Get in Touch!</h3>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Name" name="">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Email Address" name="email">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" rows="4"></textarea>
+            </div>
+            <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">       
+          </div>
+        </div> 
+      </div>
+      <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12">
+            <h6 class="text-uppercase font-weight-bold">Additional Information</h6>
+            <p>For any business inquiries please contact Kenny or Alan.</p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <h6 class="text-uppercase font-weight-bold">Contact</h6>
+            <p>7 Barraston Holdings, Torrance, Glasgow, Scotland, G64 4DW
+            <br/>info@gilchristtransport.co.uk
+            <br/>Kenny Gilchrist: +44 7775 903 642
+            <br/>Alan Gilchrist: +44 7768 177 835</p>
+          </div>
+        </div>
+        <div class="footer-copyright text-center">© 2021 Copyright: Gilchrist Transport Ltd</div>
+      </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
