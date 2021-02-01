@@ -130,13 +130,35 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.grid-container {
+.grid-container-contact {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto;
+    grid-gap: 50px;
     margin-top: 8rem !important;
 }
 
+.grid-child-contact {
+    padding: 30px 30px 30px 30px;
+    grid-column: 1 / 1;
+}
+
+.grid-child-email {
+  padding: 30px 30px 30px 30px;
+  grid-column-start: 2;
+  grid-row: 2/ span 3;
+}
+
 #office {
-    padding-top: 3rem;
+    /*padding-top: 3rem;*/
+}
+
+/** services **/
+
+.grid-container-services {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: auto auto;
+  grid-gap: 50px;
+  margin-top: 8rem !important;
 }
