@@ -136,6 +136,8 @@ body {
     grid-template-columns: auto auto;
     grid-gap: 50px;
     margin-top: 8rem !important;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .grid-child-contact {
