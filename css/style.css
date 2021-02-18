@@ -151,11 +151,24 @@ body {
   grid-row: 2/ span 3;
 }
 
-#office {
-    /*padding-top: 3rem;*/
-}
 
 /** services **/
+
+.services-parent {
+  height: 100vh;
+  display: flex;
+  margin-top: 150px;
+}
+
+.service1 {
+  height: 200px;
+  width: 200px;
+  background: rgb(125, 194, 250);
+}
+
+.service2 {
+
+}
 
 .grid-container-services {
   display: grid;
