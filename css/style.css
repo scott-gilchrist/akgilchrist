@@ -153,31 +153,30 @@ body {
 
 
 /** services **/
-
-.services-parent {
-  height: 100vh;
+#services-parent {
   display: flex;
+  flex-direction: column;
   margin-top: 100px;
-  flex-flow: column wrap;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  background-color: lightpink;
 }
 
 .service0 {
-  height: 200px;
-  width: fit-content;
-  align-items: center;
-  background: rgb(34, 240, 86);
+  width: 100%;
   flex: 1 1 200px;
+  background-color: red;
+  text-align: center;
 }
+
 .service1 {
-  height: 200px;
-  width: 200px;
-  background: rgb(125, 194, 250);
+  width: 50%;
   flex: 1 1 200px;
+  background: green;
 }
 
 .service2 {
-  height: 200px;
-  width: 200px;
-  background: rgb(179, 19, 41);
+  width: 50%;
   flex: 1 1 200px;
+  background: blue;
 }
