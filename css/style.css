@@ -157,23 +157,27 @@ body {
 .services-parent {
   height: 100vh;
   display: flex;
-  margin-top: 150px;
+  margin-top: 100px;
+  flex-flow: column wrap;
 }
 
+.service0 {
+  height: 200px;
+  width: fit-content;
+  align-items: center;
+  background: rgb(34, 240, 86);
+  flex: 1 1 200px;
+}
 .service1 {
   height: 200px;
   width: 200px;
   background: rgb(125, 194, 250);
+  flex: 1 1 200px;
 }
 
 .service2 {
-
-}
-
-.grid-container-services {
-  display: grid;
-  grid-template-rows: auto auto auto auto;
-  grid-template-columns: auto auto;
-  grid-gap: 50px;
-  margin-top: 8rem !important;
+  height: 200px;
+  width: 200px;
+  background: rgb(179, 19, 41);
+  flex: 1 1 200px;
 }
