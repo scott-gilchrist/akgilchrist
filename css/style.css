@@ -166,7 +166,7 @@ body {
 
 #services-parent {
   font-family: 'Montserrat', sans-serif;
-  background: linear-gradient(0deg, #00000088 100%, #ffffff44 100%), url(../img/fleet-angle-cropped.jpeg);
+  background: linear-gradient(0deg, #00000088 100%, #00000044 100%), url(../img/fleet-angle-cropped.jpeg);
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -180,21 +180,21 @@ body {
 .service0 {
   color: white;
   width: 100%;
-  flex: 1 1 200px;
+  flex: 1 1 300px;
   /* background-color: red; */
   text-align: center;
 }
 
 .service1 {
   color: white;
-  width: 50%;
-  flex: 1 1 200px;
+  width: 90%;
+  flex: 1 1 300px;
   /* background: green; */
 }
 
 .service2 {
   color: white;
-  width: 50%;
-  flex: 1 1 200px;
+  width: 90%;
+  flex: 1 1 300px;
   /* background: blue; */
 }
