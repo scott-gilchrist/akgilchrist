@@ -166,7 +166,7 @@ body {
 
 #services-parent {
   font-family: 'Montserrat', sans-serif;
-  background: linear-gradient(0deg, #00000088 100%, #ffffff44 100%), url(../img/fleet-angle-cropped.jpeg);
+  background: linear-gradient(0deg, #00000088 100%, #00000044 100%), url(../img/fleet-angle-cropped.jpeg);
   background-size: cover;
   display: flex;
   flex-direction: column;
