@@ -14,6 +14,10 @@ body {
     padding-bottom: .75rem;
 }
 
+.navbar-brand {
+  font-size: 30px !important;
+}
+
 .page-header {
     margin-top: 4rem;
     color: #ffffff;
@@ -50,6 +54,7 @@ body {
   .description h1 {
     color: #ececeb;
     font-size: 3.0rem;
+    font-weight: 1200;
   }
   
   .description p {
